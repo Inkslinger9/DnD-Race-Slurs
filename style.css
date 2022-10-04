@@ -5,9 +5,11 @@ h2{
     font-size: xx-large;
     font-family:cursive ;
     background-color: #3506cf;
-    margin: auto;
     width: fit-content;
-    background-image: url(https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=612x612&w=0&h=Ps0v4tx0r5q9dSXqKi9cdz-6EHWOW8LpWjyJT_dnJF8=);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
 
     
 }
@@ -17,25 +19,8 @@ body{
     background-size: cover;
 }
 
-/* .topText{
-  
-   color: #1d007e;
-   font-size: xx-large;
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
-   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190222/ourmid/pngtree-candy-color-rectangle-girl-color-cute-colorsrectangleteenage-colordreamlovelygeargeometriclight-blue-image_51203.jpg);
-   background-repeat: no-repeat;
-   width: 20%;
-   margin: auto;
-   font-weight: bolder;
-   border: 3px solid #1d007e;
-} */
 
-.leftImage{
-    float: left;
-    margin: auto;
-    width: fit-content;
-}
+
 
 .mainBlock{
     
@@ -45,7 +30,7 @@ body{
     text-align: center;
     background-color: #1d007e;
     margin: auto;
-    width: 40%;
+    width: 70%;
     background-size: cover;
     border: 7px solid #050114;
     background-repeat: repeat-y;
@@ -55,6 +40,8 @@ body{
 .bottomText{
     font-weight: bolder;
     color: #b2a6d6;
+    text-align: center;
+
 }
 
 
@@ -82,14 +69,12 @@ li{
 
 
 .links{
-    display: inline-block;
     font-size: x-large;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    list-style: none;
-    padding-left: 190px;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 
@@ -97,3 +82,4 @@ li{
 a{
     color: #6976f0;
 }
+
