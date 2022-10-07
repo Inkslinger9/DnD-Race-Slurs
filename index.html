@@ -2,210 +2,231 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>My first website!</title>
 </head>
 <body>
-  
-  <button class="btn btn-primary">Default</button>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg" id="navbar-color">
+  <div class="container-fluid">
+    <a class="navbar-brand-custom" href="#">Welcome</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
   <header>
     <h2>Home</h2>
-    <nav>
-      <div class="links">
-        <p>Home <br>
-        <a href="about.html">About</a><br>
-        <a href="login.html">Login</a></p>
-      </div>
-    </nav>
   </header>
-  <section>
-    <a href="https://roll20.net/"> <img class="leftImage" src="https://images.squarespace-cdn.com/content/v1/5d4d03e53a2efd0001e93aa5/1578883603040-0UA4TLL73JC0SZPYESZR/roll20-logo.png" alt="dragon" width="500px" height="200px"> </a>
-   
+
+  <!-- Image Links -->
+ 
    
     <!-- <p class="topText">Welcome to my first website</p> -->
-    
-    <section class="mainBlock">
-     <p class="bottomText">Racial slurs for D&D</p>
+    <section class="main-section">    
+          <div class="mainBlock">
+            <p class="bottomText">Racial slurs for D&D</p>
 
-       <!-- Get images from Critical role wiki -->
-     <a href="https://criticalrole.fandom.com/wiki/Aarakocra?so=search"> <p class="race">Aarakocra</p> </a>
-     <img src="Aarakocra.png" alt="A bird man" width="400px">
-     <ul class="insults">
-      <li>"Bird-Brains"</li>
-        <li>"Bird-Man"</li>
-        <li>"Caw-Caws"</li>
-        <li>"Crow"</li>
-        <li>"Hollowbones"</li>
-        <li>"Parrot"</li>
-        <li>"Pigeon"</li>
-        <li>"Raven"</li>
-        <li>"Vulture"</li>
-    </ul>
+              <!-- Get images from Critical role wiki -->
+            <a href="https://criticalrole.fandom.com/wiki/Aarakocra?so=search"> <p class="race">Aarakocra</p> </a>
+            <img src="Aarakocra.png" alt="A bird man" width="400px">
+            <ul class="insults">
+              <li>"Bird-Brains"</li>
+                <li>"Bird-Man"</li>
+                <li>"Caw-Caws"</li>
+                <li>"Crow"</li>
+                <li>"Hollowbones"</li>
+                <li>"Parrot"</li>
+                <li>"Pigeon"</li>
+                <li>"Raven"</li>
+                <li>"Vulture"</li>
+            </ul>
 
-    <a href="https://criticalrole.fandom.com/wiki/Aasimar?so=search"><p class="race">Aasimar</p></a>
-    <img src="Aasimar.png" alt="Aasimar" width="300px">
-     <ul class="insults">
-      <li>"Angel Face"</li>
-        <li>"Birdy"</li>
-        <li>"Chicken"</li>
-        <li>"Chickenbrain"</li>
-        <li>"God's Pet"</li>
-        <li>"Goody Two Shoes"</li>
-        <li>"Wingless Earthbound Bastard Half Breed"</li>
-    </ul>
-
-
-    <a href="https://criticalrole.fandom.com/wiki/Dragonborn?so=search"><p class="race">Dragonborns</p></a>
-    <img src="Daragonborn.png" alt="Dragonborns" width="300px">
-    <ul class="insults">
-     <li>"Boot"</li>
-       <li>"Fake-Drakes"</li>
-       <li>"Lizardbrain"</li>
-       <li>"Scalebacks"</li>
-       <li>"Tall Kobold"</li>
-       <li>"Walking Purse"</li>
-       <li>"Man-Eater"</li>
-       <li>"Snakeskin"</li>
-       <li>"Wyrm Wannabe"</li>
-   </ul>
+              <a href="https://criticalrole.fandom.com/wiki/Aasimar?so=search"><p class="race">Aasimar</p></a>
+              <img src="Aasimar.png" alt="Aasimar" width="300px">
+              <ul class="insults">
+                <li>"Angel Face"</li>
+                  <li>"Birdy"</li>
+                  <li>"Chicken"</li>
+                  <li>"Chickenbrain"</li>
+                  <li>"God's Pet"</li>
+                  <li>"Goody Two Shoes"</li>
+                  <li>"Wingless Earthbound Bastard Half Breed"</li>
+              </ul>
 
 
-   <a href="https://criticalrole.fandom.com/wiki/Drow"><p class="race">Drow</p></a>
-   <img src="Drow.png" alt="Drow" width="300px">
-   <ul class="insults">
-    <li>"Ash Face"</li>
-      <li>"Cavemen"</li>
-      <li>"Dirt Elves"</li>
-      <li>"Dwarven Imposter"</li>
-      <li>"Filth Skin"</li>
-      <li>"Murker"</li>
-      <li>"Spider Kisser"</li>
-      <li>"Tall Dwarfs"</li>
-      <li>"Underscum"</li>
-  </ul>
+              <a href="https://criticalrole.fandom.com/wiki/Dragonborn?so=search"><p class="race">Dragonborns</p></a>
+              <img src="Daragonborn.png" alt="Dragonborns" width="300px">
+              <ul class="insults">
+              <li>"Boot"</li>
+                <li>"Fake-Drakes"</li>
+                <li>"Lizardbrain"</li>
+                <li>"Scalebacks"</li>
+                <li>"Tall Kobold"</li>
+                <li>"Walking Purse"</li>
+                <li>"Man-Eater"</li>
+                <li>"Snakeskin"</li>
+                <li>"Wyrm Wannabe"</li>
+            </ul>
 
 
-  <a href="https://criticalrole.fandom.com/wiki/Dwarf"><p class="race">Dwarves</p></a>
-  <img src="Dwarves.png" alt="Dwarfs" width="300px">
-  <ul class="insults">
-   <li>"Angry Footstool"</li>
-     <li>"Beard-Goblin"</li>
-     <li>"Cave Hippo"</li>
-     <li>"Copper Polisher"</li>
-     <li>"Dirt Licker"</li>
-     <li>"Gold Digger"</li>
-     <li>"Hammer Midget"</li>
-     <li>"Pubic Face"</li>
-     <li>"Stone Shitter"</li>
- </ul>
-
- <a href="https://criticalrole.fandom.com/wiki/Elf"><p class="race">Elves</p></a>
-  <img src="Elves.png" alt="Dwarfs" width="300px">
-  <ul class="insults">
-   <li>"Bark Sniffer"</li>
-     <li>"Dandilion Licker"</li>
-     <li>"Farie Wannabe"</li>
-     <li>"Pointy Ears"</li>
-     <li>"Light Weights"</li>
-     <li>"Tree Fucker"</li>
-     <li>"Waste of Immortality"</li>
-     <li>"Wingless Farie"</li>
-     <li>"Wood-Heads"</li>
- </ul>
+            <a href="https://criticalrole.fandom.com/wiki/Drow"><p class="race">Drow</p></a>
+            <img src="Drow.png" alt="Drow" width="300px">
+            <ul class="insults">
+              <li>"Ash Face"</li>
+                <li>"Cavemen"</li>
+                <li>"Dirt Elves"</li>
+                <li>"Dwarven Imposter"</li>
+                <li>"Filth Skin"</li>
+                <li>"Murker"</li>
+                <li>"Spider Kisser"</li>
+                <li>"Tall Dwarfs"</li>
+                <li>"Underscum"</li>
+            </ul>
 
 
+            <a href="https://criticalrole.fandom.com/wiki/Dwarf"><p class="race">Dwarves</p></a>
+            <img src="Dwarves.png" alt="Dwarfs" width="300px">
+            <ul class="insults">
+            <li>"Angry Footstool"</li>
+              <li>"Beard-Goblin"</li>
+              <li>"Cave Hippo"</li>
+              <li>"Copper Polisher"</li>
+              <li>"Dirt Licker"</li>
+              <li>"Gold Digger"</li>
+              <li>"Hammer Midget"</li>
+              <li>"Pubic Face"</li>
+              <li>"Stone Shitter"</li>
+            </ul>
 
- <a href="https://criticalrole.fandom.com/wiki/Gnome"><p class="race">Gnomes</p></a>
- <img src="Gnomes.png" alt="Gnome" width="300px">
- <ul class="insults">
-  <li>"Ankle Biter"</li>
-    <li>"Cone Head"</li>
-    <li>"Discount Dwarf"</li>
-    <li>"Fat Fairy"</li>
-    <li>"KneeLicker"</li>
-    <li>"Lawn Ornaments"</li>
-    <li>"Mini-Elf"</li>
-    <li>"Mushroom Sucker"</li>
-    <li>"TinkerTots"</li>
-</ul>
- 
-
-
-<a href="https://criticalrole.fandom.com/wiki/Halfling"><p class="race">Halflings</p></a>
-<img src="Halfling.png" alt="Halfling" width="300px">
-<ul class="insults">
- <li>"Arm Rest"</li>
-   <li>"Children"</li>
-   <li>"Dwarfling"</li>
-   <li>"Halfman"</li>
-   <li>"Hobbit"</li>
-   <li>"Leatherfoot"</li>
-   <li>"Shin Licker"</li>
-   <li>"Small Fry"</li>
-   <li>"Sticky Fingers"</li>
-</ul>
-
-
-<a href="https://criticalrole.fandom.com/wiki/Human"><p class="race">Humans</p></a>
-<img src="Humans.png" alt="Human" width="300px">
-<ul class="insults">
- <li>"Cattle"</li>
-   <li>"Humie"</li>
-   <li>"Monkeys"</li>
-   <li>"Pig Skin"</li>
-   <li>"Pinks"</li>
-   <li>"Short Life"</li>
-   <li>"Smooth Skin"</li>
-   <li>"Whore-Race"</li>
-   <li>"World-Blight"</li>
-</ul>
-
-
-<a href="https://criticalrole.fandom.com/wiki/Orc?so=search"><p class="race">Orcs/Half-Orcs</p></a>
-<img src="Orcs.png" alt="Orc" width="300px">
-<ul class="insults">
- <li>"Broccoli Head"</li>
-   <li>"Green Ape"</li>
-   <li>"Gronk"</li>
-   <li>"Grunt"</li>
-   <li>"Lumberfoot"</li>
-   <li>"Pigface"</li>
-   <li>"Slimeskin"</li>
-   <li>"Tusk Face"</li>
-   <li>"Green Beast"</li>
-</ul>
+            <a href="https://criticalrole.fandom.com/wiki/Elf"><p class="race">Elves</p></a>
+              <img src="Elves.png" alt="Dwarfs" width="300px">
+              <ul class="insults">
+              <li>"Bark Sniffer"</li>
+                <li>"Dandilion Licker"</li>
+                <li>"Farie Wannabe"</li>
+                <li>"Pointy Ears"</li>
+                <li>"Light Weights"</li>
+                <li>"Tree Fucker"</li>
+                <li>"Waste of Immortality"</li>
+                <li>"Wingless Farie"</li>
+                <li>"Wood-Heads"</li>
+            </ul>
 
 
 
-<a href="https://criticalrole.fandom.com/wiki/Tabaxi"><p class="race">Tabaxi</p></a>
-<img src="Tabaxi.png" alt="Tabaxi" width="300px">
-<ul class="insults">
- <li>"Cat"</li>
-   <li>"Dog Lover"</li>
-   <li>"Fleabag"</li>
-   <li>"Hairball"</li>
-   <li>"Milk Drinker"</li>
-   <li>"Worm Farm"</li>
-</ul>
+            <a href="https://criticalrole.fandom.com/wiki/Gnome"><p class="race">Gnomes</p></a>
+            <img src="Gnomes.png" alt="Gnome" width="300px">
+            <ul class="insults">
+              <li>"Ankle Biter"</li>
+                <li>"Cone Head"</li>
+                <li>"Discount Dwarf"</li>
+                <li>"Fat Fairy"</li>
+                <li>"KneeLicker"</li>
+                <li>"Lawn Ornaments"</li>
+                <li>"Mini-Elf"</li>
+                <li>"Mushroom Sucker"</li>
+                <li>"TinkerTots"</li>
+            </ul>
+            
+
+
+            <a href="https://criticalrole.fandom.com/wiki/Halfling"><p class="race">Halflings</p></a>
+            <img src="Halfling.png" alt="Halfling" width="300px">
+            <ul class="insults">
+            <li>"Arm Rest"</li>
+              <li>"Children"</li>
+              <li>"Dwarfling"</li>
+              <li>"Halfman"</li>
+              <li>"Hobbit"</li>
+              <li>"Leatherfoot"</li>
+              <li>"Shin Licker"</li>
+              <li>"Small Fry"</li>
+              <li>"Sticky Fingers"</li>
+            </ul>
+
+
+            <a href="https://criticalrole.fandom.com/wiki/Human"><p class="race">Humans</p></a>
+            <img src="Humans.png" alt="Human" width="300px">
+            <ul class="insults">
+            <li>"Cattle"</li>
+              <li>"Humie"</li>
+              <li>"Monkeys"</li>
+              <li>"Pig Skin"</li>
+              <li>"Pinks"</li>
+              <li>"Short Life"</li>
+              <li>"Smooth Skin"</li>
+              <li>"Whore-Race"</li>
+              <li>"World-Blight"</li>
+            </ul>
+
+
+            <a href="https://criticalrole.fandom.com/wiki/Orc?so=search"><p class="race">Orcs/Half-Orcs</p></a>
+            <img src="Orcs.png" alt="Orc" width="300px">
+            <ul class="insults">
+            <li>"Broccoli Head"</li>
+              <li>"Green Ape"</li>
+              <li>"Gronk"</li>
+              <li>"Grunt"</li>
+              <li>"Lumberfoot"</li>
+              <li>"Pigface"</li>
+              <li>"Slimeskin"</li>
+              <li>"Tusk Face"</li>
+              <li>"Green Beast"</li>
+            </ul>
 
 
 
-<a href="https://criticalrole.fandom.com/wiki/Tiefling"><p class="race">Tieflings</p></a>
-<img src="Tiefling.png" alt="Tief" width="300px">
-<ul class="insults">
- <li>"Bullheads"</li>
-   <li>"Demon Child"</li>
-   <li>"Devil Bastard"</li>
-   <li>"Failbirth"</li>
-   <li>"Goatface"</li>
-   <li>"Half-Hells"</li>
-   <li>"Hellspawn"</li>
-   <li>"Tainted Ones"</li>
-   <li>"Ubirth"</li>
-</ul>
+            <a href="https://criticalrole.fandom.com/wiki/Tabaxi"><p class="race">Tabaxi</p></a>
+            <img src="Tabaxi.png" alt="Tabaxi" width="300px">
+            <ul class="insults">
+            <li>"Cat"</li>
+              <li>"Dog Lover"</li>
+              <li>"Fleabag"</li>
+              <li>"Hairball"</li>
+              <li>"Milk Drinker"</li>
+              <li>"Worm Farm"</li>
+            </ul>
 
-  
-    </section>
-  </section>
+
+
+            <a href="https://criticalrole.fandom.com/wiki/Tiefling"><p class="race">Tieflings</p></a>
+            <img src="Tiefling.png" alt="Tief" width="300px">
+            <ul class="insults">
+            <li>"Bullheads"</li>
+              <li>"Demon Child"</li>
+              <li>"Devil Bastard"</li>
+              <li>"Failbirth"</li>
+              <li>"Goatface"</li>
+              <li>"Half-Hells"</li>
+              <li>"Hellspawn"</li>
+              <li>"Tainted Ones"</li>
+              <li>"Ubirth"</li>
+            </ul>
+
+        
+          </div>
+        </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>

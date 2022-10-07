@@ -1,39 +1,49 @@
+
+
+
+
+#navbar-color{
+
+    background-color: #1d007e;
+}
+
 h2{
     color: #887CAF;
     text-align: center;
-    border: 5px solid #5b4897;
+    border: 5px solid #2a117c;
     font-size: xx-large;
-    font-family:cursive ;
-    background-color: #3506cf;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #1d007e;
     width: fit-content;
     display: flex;
     background-size: cover;
     justify-content: center;
-    margin: auto;
-
+    margin: 20px;
+    
     
 }
 
-body{
-    background-image: url(https://preview.redd.it/ifw1keannjw41.jpg?auto=webp&s=e123ab1d8fc20faed9894298f7efbd6cde32aab5);
+html, body{
+
+    background: url(https://preview.redd.it/ifw1keannjw41.jpg?auto=webp&s=e123ab1d8fc20faed9894298f7efbd6cde32aab5) no-repeat center center fixed;
     background-size: cover;
 }
-
-
 
 
 .mainBlock{
-    
+    min-width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     color: #6976f0;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     background-color: #1d007e;
-    margin: auto;
-    width: 70%;
+    width: 50%;
     background-size: cover;
     border: 7px solid #050114;
-    background-repeat: repeat-y;
     background-image: url(https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=612x612&w=0&h=Ps0v4tx0r5q9dSXqKi9cdz-6EHWOW8LpWjyJT_dnJF8=);
 }
 
@@ -43,6 +53,7 @@ body{
     text-align: center;
 
 }
+
 
 
 li{
@@ -83,3 +94,46 @@ a{
     color: #6976f0;
 }
 
+
+
+.navbar-brand-custom{
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: snow;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color:aqua;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:aliceblue;
+}
+
+
+section{
+    width: 100%;
+}
+
+.image-links{
+    width: 20%;
+}
+
+
+.main-section{
+
+    display: flex;
+    justify-content: center;
+}
